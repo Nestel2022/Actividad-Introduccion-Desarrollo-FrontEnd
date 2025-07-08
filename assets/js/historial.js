@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 ${purchase.items.map(item => `
                                     <tr>
                                         <td>
-                                            <img src="/${item.imagen}" alt="/${item.nombre}" width="40" class="me-2">
+                                            <img src="../${item.imagen}" alt="../${item.nombre}" width="40" class="me-2">
                                             ${item.nombre}
                                         </td>
                                         <td class="text-end">$${item.precio.toLocaleString('es-CO')}</td>

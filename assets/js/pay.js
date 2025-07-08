@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     invoiceContent.innerHTML = `
             <div class="text-center mb-4">
-                <img src="/assets/img/logo.png" alt="Tienda" height="60" class="mb-3">
+                <img src="../assets/img/logo.png" alt="Tienda" height="60" class="mb-3">
                 <h4>Tienda Online</h4>
                 <p class="text-muted mb-0">Centro Bogotá</p>
                 <p class="text-muted">NIT: 123456789-0</p>
